@@ -17,7 +17,7 @@ This project sets up a **LAMP stack (Linux, Apache, MySQL, PHP)** and deploys **
 ---
 
 ## 📁 Project Structure
-
+```
 lamp-wordpress-terraform/ 
 ├── main.tf                  # Terraform resources
 ├── var.tf                   # Input variables 
@@ -25,7 +25,7 @@ lamp-wordpress-terraform/
 ├── install_lamp.sh          # EC2 bootstrap script (LAMP + WordPress setup) 
 ├── generate_key.tf          # SSH Key generator
 └── README.md                # Project documentation
-
+```
 ---
 
 ## 1. 🚀 Getting Started
